@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.logo img{
+    height: 130px;
+    width: 130px;
+}
+
+.icons img{
+    height: 28px;
+    width: 28px;
+    margin-left:5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 4px 16px;
+    font-size: 14px;
+}
+.nav a:hover{
+    border-bottom:3px solid #3E6AE1;
+    border-radius: 15px;
+}
+article{
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png');
+    height: 700px;
+    width: 1519px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+article div{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+h3 a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+h1{
+    font-size: 56px;
+}
+h3 span{
+    font-size: 34px;
+}
+p span{
+    font-size: 17px;
+}
+
+.btn button{
+    padding: 10px 80px;
+    border-radius: 5px;
+    margin: 0px 6px;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    top:300px
+}
+.btn button:first-child{
+    background-color: #3E6AE1;
+    color: white;
+}
